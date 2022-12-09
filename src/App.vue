@@ -26,6 +26,8 @@
     <!-- After making the provide as a function, it can take the this.name value from data property -->
     <h1>App component username - {{ name }}</h1>
     <ProvideAndInject />
+    <h2>Popup Component - Custom Component - Events</h2>
+    <ComponentEvents />
   </div>
 </template>
 
@@ -34,6 +36,7 @@ import GreetVue from "./components/Greet.vue";
 import PropTypesAndValidations from "./components/PropTypesAndValidations.vue";
 import NonPropAttributes from "./components/NonPropAttributes.vue";
 import ProvideAndInject from "./components/ProvideAndInject.vue";
+import ComponentEvents from "./components/Custom-Component-Events/ComponentEvents.vue";
 export default {
   name: "App",
   components: {
@@ -41,6 +44,7 @@ export default {
     PropTypesAndValidations,
     NonPropAttributes,
     ProvideAndInject,
+    ComponentEvents,
   },
   data() {
     return {
