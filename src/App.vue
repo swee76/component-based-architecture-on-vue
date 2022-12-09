@@ -5,15 +5,30 @@
     <GreetVue name="Diana" hero-name="Wonder Woman" />
 
     <GreetVue :name="name" :hero-name="channel" />
+    <PropTypesAndValidations
+      title="Let's learn props types"
+      :likes="50"
+      :isPublished="true"
+    />
+    <NonPropAttributes
+      id="myArticle"
+      title="Learn Non prop attributes"
+      :likes="32"
+      :isPublished="false"
+    />
   </div>
 </template>
 
 <script>
 import GreetVue from "./components/Greet.vue";
+import PropTypesAndValidations from "./components/PropTypesAndValidations.vue";
+import NonPropAttributes from "./components/NonPropAttributes.vue";
 export default {
   name: "App",
   components: {
     GreetVue,
+    PropTypesAndValidations,
+    NonPropAttributes,
   },
   data() {
     return {
