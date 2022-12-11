@@ -28,7 +28,11 @@
     <ProvideAndInject />
     <h2>Popup Component - Custom Component - Events</h2>
     <ComponentEvents />
-    <ComponentsAndVModel/>
+    <ComponentsAndVModel />
+    <div>
+      <h2>Learn on Slots</h2>
+      <AboutSlots />
+    </div>
   </div>
 </template>
 
@@ -39,6 +43,7 @@ import NonPropAttributes from "./components/NonPropAttributes.vue";
 import ProvideAndInject from "./components/ProvideAndInject.vue";
 import ComponentEvents from "./components/Custom-Component-Events/ComponentEvents.vue";
 import ComponentsAndVModel from "./components/Components-and-V-model/ComponentsAndVModel.vue";
+import AboutSlots from "./components/AboutSlots.vue";
 export default {
   name: "App",
   components: {
@@ -47,7 +52,8 @@ export default {
     NonPropAttributes,
     ProvideAndInject,
     ComponentEvents,
-    ComponentsAndVModel
+    ComponentsAndVModel,
+    AboutSlots,
   },
   data() {
     return {
