@@ -14,15 +14,23 @@
       /></template>
       <template v-slot:footer><button>View Details</button></template>
     </CardComponent>
+
+    <NameList
+      ><template v-slot:default="slotProps"
+        >{{ slotProps.firstName }} {{ slotProps.lastName }}</template
+      ></NameList
+    >
   </div>
 </template>
 
 <script>
 import CardComponent from "./Learn-Slots/CardComponent.vue";
+import NameList from "./Learn-Slots/NameList.vue";
 export default {
   name: "AboutSlots",
   components: {
     CardComponent,
+    NameList,
   },
 };
 </script>
