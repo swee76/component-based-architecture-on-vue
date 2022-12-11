@@ -28,6 +28,7 @@
     <ProvideAndInject />
     <h2>Popup Component - Custom Component - Events</h2>
     <ComponentEvents />
+    <ComponentsAndVModel/>
   </div>
 </template>
 
@@ -37,6 +38,7 @@ import PropTypesAndValidations from "./components/PropTypesAndValidations.vue";
 import NonPropAttributes from "./components/NonPropAttributes.vue";
 import ProvideAndInject from "./components/ProvideAndInject.vue";
 import ComponentEvents from "./components/Custom-Component-Events/ComponentEvents.vue";
+import ComponentsAndVModel from "./components/Components-and-V-model/ComponentsAndVModel.vue";
 export default {
   name: "App",
   components: {
@@ -45,6 +47,7 @@ export default {
     NonPropAttributes,
     ProvideAndInject,
     ComponentEvents,
+    ComponentsAndVModel
   },
   data() {
     return {
