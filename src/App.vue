@@ -42,6 +42,11 @@
 
     <h3>Dynamic Components</h3>
     <DynamicComponents />
+
+    <h3>Learn about Teleport Component</h3>
+    <teleport to="#portal-root">
+      <TeleportComponent />
+    </teleport>
   </div>
 </template>
 
@@ -55,6 +60,7 @@ import ComponentsAndVModel from "./components/Components-and-V-model/ComponentsA
 import AboutSlots from "./components/AboutSlots.vue";
 import ChildStyles from "./components/ComponentStyles/ChildStyles.vue";
 import DynamicComponents from "./components/Learn-Dynamic-Components/DynamicComponents.vue";
+import TeleportComponent from "./components/Learn-Teleport-Component/TeleportComponent.vue";
 export default {
   name: "App",
   components: {
@@ -67,6 +73,7 @@ export default {
     AboutSlots,
     ChildStyles,
     DynamicComponents,
+    TeleportComponent,
   },
   data() {
     return {
