@@ -15,10 +15,22 @@
       <template v-slot:footer><button>View Details</button></template>
     </CardComponent>
 
+    <h3>Slot Props</h3>
+
     <NameList
       ><template v-slot:default="slotProps"
         >{{ slotProps.firstName }} {{ slotProps.lastName }}</template
       ></NameList
+    >
+    <NameList
+      ><template v-slot:default="slotProps"
+        >{{ slotProps.lastName }}, {{ slotProps.firstName }}</template
+      ></NameList
+    >
+    <NameList
+      ><template v-slot:default="slotProps">{{
+        slotProps.firstName
+      }}</template></NameList
     >
   </div>
 </template>
