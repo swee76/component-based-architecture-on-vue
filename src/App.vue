@@ -39,6 +39,9 @@
 
     <h3>slot and component styles</h3>
     <ChildStyles><h4>Child Component Styles with slot</h4></ChildStyles>
+
+    <h3>Dynamic Components</h3>
+    <DynamicComponents />
   </div>
 </template>
 
@@ -51,6 +54,7 @@ import ComponentEvents from "./components/Custom-Component-Events/ComponentEvent
 import ComponentsAndVModel from "./components/Components-and-V-model/ComponentsAndVModel.vue";
 import AboutSlots from "./components/AboutSlots.vue";
 import ChildStyles from "./components/ComponentStyles/ChildStyles.vue";
+import DynamicComponents from "./components/Learn-Dynamic-Components/DynamicComponents.vue";
 export default {
   name: "App",
   components: {
@@ -62,6 +66,7 @@ export default {
     ComponentsAndVModel,
     AboutSlots,
     ChildStyles,
+    DynamicComponents,
   },
   data() {
     return {
