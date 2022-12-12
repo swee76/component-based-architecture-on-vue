@@ -33,6 +33,12 @@
       <h2>Learn on Slots</h2>
       <AboutSlots />
     </div>
+    <h3>Component Styles</h3>
+    <h4>App Component Text</h4>
+    <ChildStyles />
+
+    <h3>slot and component styles</h3>
+    <ChildStyles><h4>Child Component Styles with slot</h4></ChildStyles>
   </div>
 </template>
 
@@ -44,6 +50,7 @@ import ProvideAndInject from "./components/ProvideAndInject.vue";
 import ComponentEvents from "./components/Custom-Component-Events/ComponentEvents.vue";
 import ComponentsAndVModel from "./components/Components-and-V-model/ComponentsAndVModel.vue";
 import AboutSlots from "./components/AboutSlots.vue";
+import ChildStyles from "./components/ComponentStyles/ChildStyles.vue";
 export default {
   name: "App",
   components: {
@@ -54,6 +61,7 @@ export default {
     ComponentEvents,
     ComponentsAndVModel,
     AboutSlots,
+    ChildStyles,
   },
   data() {
     return {
@@ -76,7 +84,9 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+basically 
+/* This scoped attribute is basically used for apply the relevant styles only for the correspond component   */
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -84,5 +94,8 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+h4 {
+  color: orange;
 }
 </style>
