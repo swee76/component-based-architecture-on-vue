@@ -53,6 +53,9 @@
 
     <h3>HTTP Post Request - axios</h3>
     <CreatePost />
+
+    <h1>Lifecycle Hooks</h1>
+    <ParentComponent />
   </div>
 </template>
 
@@ -69,6 +72,7 @@ import DynamicComponents from "./components/Learn-Dynamic-Components/DynamicComp
 import TeleportComponent from "./components/Learn-Teleport-Component/TeleportComponent.vue";
 import PostList from "./components/HTTP-Get-Request/PostList.vue";
 import CreatePost from "./components/HTTP-Post-Request/CreatePost.vue";
+import ParentComponent from "./components/LifeCycle-Hooks/Parent.vue";
 export default {
   name: "App",
   components: {
@@ -84,6 +88,7 @@ export default {
     TeleportComponent,
     PostList,
     CreatePost,
+    ParentComponent,
   },
   data() {
     return {
