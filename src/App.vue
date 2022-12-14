@@ -56,6 +56,8 @@
 
     <h1>Lifecycle Hooks</h1>
     <ParentComponent />
+
+    <PostListonPageLoad />
   </div>
 </template>
 
@@ -73,6 +75,7 @@ import TeleportComponent from "./components/Learn-Teleport-Component/TeleportCom
 import PostList from "./components/HTTP-Get-Request/PostList.vue";
 import CreatePost from "./components/HTTP-Post-Request/CreatePost.vue";
 import ParentComponent from "./components/LifeCycle-Hooks/Parent.vue";
+import PostListonPageLoad from "./components/Get-Request-on-Page-Load/PostListOnPageLoad.vue";
 export default {
   name: "App",
   components: {
@@ -89,6 +92,7 @@ export default {
     PostList,
     CreatePost,
     ParentComponent,
+    PostListonPageLoad,
   },
   data() {
     return {
