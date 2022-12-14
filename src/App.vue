@@ -58,6 +58,8 @@
     <ParentComponent />
 
     <PostListonPageLoad />
+    <h3>Learn on Template Ref</h3>
+    <TemplateRef />
   </div>
 </template>
 
@@ -76,6 +78,7 @@ import PostList from "./components/HTTP-Get-Request/PostList.vue";
 import CreatePost from "./components/HTTP-Post-Request/CreatePost.vue";
 import ParentComponent from "./components/LifeCycle-Hooks/Parent.vue";
 import PostListonPageLoad from "./components/Get-Request-on-Page-Load/PostListOnPageLoad.vue";
+import TemplateRef from "./components/Learn-on-TemplateRef/TemplateRef.vue";
 export default {
   name: "App",
   components: {
@@ -93,6 +96,7 @@ export default {
     CreatePost,
     ParentComponent,
     PostListonPageLoad,
+    TemplateRef,
   },
   data() {
     return {
