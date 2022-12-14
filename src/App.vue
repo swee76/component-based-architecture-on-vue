@@ -64,6 +64,12 @@
     <h3>Reusability with Mixins</h3>
     <ClickCounter />
     <HoverCounter />
+
+    <h3>Replacing Data with Ref</h3>
+    <DataComponent />
+    
+    <h3>Replacing Data With Reactive</h3>
+    <ReplacingDataWithReactive />
   </div>
 </template>
 
@@ -85,6 +91,8 @@ import PostListonPageLoad from "./components/Get-Request-on-Page-Load/PostListOn
 import TemplateRef from "./components/Learn-on-TemplateRef/TemplateRef.vue";
 import ClickCounter from "./components/Reusability-with-Mixins/ClickCounter.vue";
 import HoverCounter from "./components/Reusability-with-Mixins/HoverCounter.vue";
+import DataComponent from "./components/Learn-Composition-API/Data.vue";
+import ReplacingDataWithReactive from "./components/Learn-Composition-API/ReplacingDataWithReactive.vue";
 export default {
   name: "App",
   components: {
@@ -105,6 +113,8 @@ export default {
     TemplateRef,
     ClickCounter,
     HoverCounter,
+    DataComponent,
+    ReplacingDataWithReactive,
   },
   data() {
     return {
