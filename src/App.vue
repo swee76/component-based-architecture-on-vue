@@ -67,9 +67,13 @@
 
     <h3>Replacing Data with Ref</h3>
     <DataComponent />
-    
+
     <h3>Replacing Data With Reactive</h3>
     <ReplacingDataWithReactive />
+
+    <h3>Reactivity and toRefs</h3>
+    <DemoOne />
+    <DemoTwo />
   </div>
 </template>
 
@@ -93,6 +97,8 @@ import ClickCounter from "./components/Reusability-with-Mixins/ClickCounter.vue"
 import HoverCounter from "./components/Reusability-with-Mixins/HoverCounter.vue";
 import DataComponent from "./components/Learn-Composition-API/Data.vue";
 import ReplacingDataWithReactive from "./components/Learn-Composition-API/ReplacingDataWithReactive.vue";
+import DemoOne from "./components/Reactivity-and-toRefs/DemoOne.vue";
+import DemoTwo from "./components/Reactivity-and-toRefs/DemoTwo.vue";
 export default {
   name: "App",
   components: {
@@ -115,6 +121,8 @@ export default {
     HoverCounter,
     DataComponent,
     ReplacingDataWithReactive,
+    DemoOne,
+    DemoTwo,
   },
   data() {
     return {
