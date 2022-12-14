@@ -50,6 +50,9 @@
 
     <h3>HTTP Get Request - axios</h3>
     <PostList />
+
+    <h3>HTTP Post Request - axios</h3>
+    <CreatePost />
   </div>
 </template>
 
@@ -65,6 +68,7 @@ import ChildStyles from "./components/ComponentStyles/ChildStyles.vue";
 import DynamicComponents from "./components/Learn-Dynamic-Components/DynamicComponents.vue";
 import TeleportComponent from "./components/Learn-Teleport-Component/TeleportComponent.vue";
 import PostList from "./components/HTTP-Get-Request/PostList.vue";
+import CreatePost from "./components/HTTP-Post-Request/CreatePost.vue";
 export default {
   name: "App",
   components: {
@@ -79,6 +83,7 @@ export default {
     DynamicComponents,
     TeleportComponent,
     PostList,
+    CreatePost,
   },
   data() {
     return {
