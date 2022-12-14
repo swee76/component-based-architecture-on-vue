@@ -60,6 +60,10 @@
     <PostListonPageLoad />
     <h3>Learn on Template Ref</h3>
     <TemplateRef />
+
+    <h3>Reusability with Mixins</h3>
+    <ClickCounter />
+    <HoverCounter />
   </div>
 </template>
 
@@ -79,6 +83,8 @@ import CreatePost from "./components/HTTP-Post-Request/CreatePost.vue";
 import ParentComponent from "./components/LifeCycle-Hooks/Parent.vue";
 import PostListonPageLoad from "./components/Get-Request-on-Page-Load/PostListOnPageLoad.vue";
 import TemplateRef from "./components/Learn-on-TemplateRef/TemplateRef.vue";
+import ClickCounter from "./components/Reusability-with-Mixins/ClickCounter.vue";
+import HoverCounter from "./components/Reusability-with-Mixins/HoverCounter.vue";
 export default {
   name: "App",
   components: {
@@ -97,6 +103,8 @@ export default {
     ParentComponent,
     PostListonPageLoad,
     TemplateRef,
+    ClickCounter,
+    HoverCounter,
   },
   data() {
     return {
