@@ -91,6 +91,8 @@
     <ProvideInject />
 
     <TemplateRefOfCompositionAPI />
+
+    <PropsAndCompositionAPI />
   </div>
 </template>
 
@@ -122,6 +124,7 @@ import ComputedPeroperties from "./components/Replacing-Computed-Properties/Comp
 import WatchersComponent from "./components/Replacing-Watchers/Watch.vue";
 import ProvideInject from "./components/Replacing-Provide-and-Inject/ProvideInject.vue";
 import TemplateRefOfCompositionAPI from "./components/TemplateRefs-and-Composition-API/TemplateRefOfCompositionAPI.vue";
+import PropsAndCompositionAPI from "./components/Props-and-Composition-API/PropsAndCompositionAPI.vue";
 export default {
   name: "App",
   components: {
@@ -152,6 +155,7 @@ export default {
     WatchersComponent,
     ProvideInject,
     TemplateRefOfCompositionAPI,
+    PropsAndCompositionAPI,
   },
   data() {
     return {
