@@ -80,6 +80,9 @@
 
     <h3>V model and Composition API</h3>
     <VModel />
+
+    <h3>Repalcing Computed Properties</h3>
+    <ComputedPeroperties />
   </div>
 </template>
 
@@ -107,6 +110,7 @@ import DemoOne from "./components/Reactivity-and-toRefs/DemoOne.vue";
 import DemoTwo from "./components/Reactivity-and-toRefs/DemoTwo.vue";
 import MethodsComponent from "./components/Replacing-Methods/Methods.vue";
 import VModel from "./components/VModel-and-Composition-API/VModel.vue";
+import ComputedPeroperties from "./components/Replacing-Computed-Properties/Computed.vue";
 export default {
   name: "App",
   components: {
@@ -133,6 +137,7 @@ export default {
     DemoTwo,
     MethodsComponent,
     VModel,
+    ComputedPeroperties,
   },
   data() {
     return {
