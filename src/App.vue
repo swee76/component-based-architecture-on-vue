@@ -93,6 +93,9 @@
     <TemplateRefOfCompositionAPI />
 
     <PropsAndCompositionAPI />
+
+    <h3>Reusability With Composition API</h3>
+    <ReusabilityWithCompositionAPI />
   </div>
 </template>
 
@@ -125,6 +128,7 @@ import WatchersComponent from "./components/Replacing-Watchers/Watch.vue";
 import ProvideInject from "./components/Replacing-Provide-and-Inject/ProvideInject.vue";
 import TemplateRefOfCompositionAPI from "./components/TemplateRefs-and-Composition-API/TemplateRefOfCompositionAPI.vue";
 import PropsAndCompositionAPI from "./components/Props-and-Composition-API/PropsAndCompositionAPI.vue";
+import ReusabilityWithCompositionAPI from "./components/Reusability-with-Composition-API/ReusabilityWithCompositionAPI.vue";
 export default {
   name: "App",
   components: {
@@ -156,6 +160,7 @@ export default {
     ProvideInject,
     TemplateRefOfCompositionAPI,
     PropsAndCompositionAPI,
+    ReusabilityWithCompositionAPI,
   },
   data() {
     return {
