@@ -86,6 +86,9 @@
 
     <h3>Replacing Watchers</h3>
     <WatchersComponent />
+
+    <h3>Replacing Provide and Inject</h3>
+    <ProvideInject />
   </div>
 </template>
 
@@ -115,6 +118,7 @@ import MethodsComponent from "./components/Replacing-Methods/Methods.vue";
 import VModel from "./components/VModel-and-Composition-API/VModel.vue";
 import ComputedPeroperties from "./components/Replacing-Computed-Properties/Computed.vue";
 import WatchersComponent from "./components/Replacing-Watchers/Watch.vue";
+import ProvideInject from "./components/Replacing-Provide-and-Inject/ProvideInject.vue";
 export default {
   name: "App",
   components: {
@@ -143,6 +147,7 @@ export default {
     VModel,
     ComputedPeroperties,
     WatchersComponent,
+    ProvideInject,
   },
   data() {
     return {
