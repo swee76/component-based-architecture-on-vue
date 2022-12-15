@@ -83,6 +83,9 @@
 
     <h3>Repalcing Computed Properties</h3>
     <ComputedPeroperties />
+
+    <h3>Replacing Watchers</h3>
+    <WatchersComponent />
   </div>
 </template>
 
@@ -111,6 +114,7 @@ import DemoTwo from "./components/Reactivity-and-toRefs/DemoTwo.vue";
 import MethodsComponent from "./components/Replacing-Methods/Methods.vue";
 import VModel from "./components/VModel-and-Composition-API/VModel.vue";
 import ComputedPeroperties from "./components/Replacing-Computed-Properties/Computed.vue";
+import WatchersComponent from "./components/Replacing-Watchers/Watch.vue";
 export default {
   name: "App",
   components: {
@@ -138,6 +142,7 @@ export default {
     MethodsComponent,
     VModel,
     ComputedPeroperties,
+    WatchersComponent,
   },
   data() {
     return {
