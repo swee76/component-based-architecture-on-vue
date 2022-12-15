@@ -89,6 +89,8 @@
 
     <h3>Replacing Provide and Inject</h3>
     <ProvideInject />
+
+    <TemplateRefOfCompositionAPI />
   </div>
 </template>
 
@@ -119,6 +121,7 @@ import VModel from "./components/VModel-and-Composition-API/VModel.vue";
 import ComputedPeroperties from "./components/Replacing-Computed-Properties/Computed.vue";
 import WatchersComponent from "./components/Replacing-Watchers/Watch.vue";
 import ProvideInject from "./components/Replacing-Provide-and-Inject/ProvideInject.vue";
+import TemplateRefOfCompositionAPI from "./components/TemplateRefs-and-Composition-API/TemplateRefOfCompositionAPI.vue";
 export default {
   name: "App",
   components: {
@@ -148,6 +151,7 @@ export default {
     ComputedPeroperties,
     WatchersComponent,
     ProvideInject,
+    TemplateRefOfCompositionAPI,
   },
   data() {
     return {
