@@ -74,6 +74,9 @@
     <h3>Reactivity and toRefs</h3>
     <DemoOne />
     <DemoTwo />
+
+    <h3>Replacing Methods</h3>
+    <MethodsComponent />
   </div>
 </template>
 
@@ -99,6 +102,7 @@ import DataComponent from "./components/Learn-Composition-API/Data.vue";
 import ReplacingDataWithReactive from "./components/Learn-Composition-API/ReplacingDataWithReactive.vue";
 import DemoOne from "./components/Reactivity-and-toRefs/DemoOne.vue";
 import DemoTwo from "./components/Reactivity-and-toRefs/DemoTwo.vue";
+import MethodsComponent from "./components/Replacing-Methods/Methods.vue";
 export default {
   name: "App",
   components: {
@@ -123,6 +127,7 @@ export default {
     ReplacingDataWithReactive,
     DemoOne,
     DemoTwo,
+    MethodsComponent,
   },
   data() {
     return {
