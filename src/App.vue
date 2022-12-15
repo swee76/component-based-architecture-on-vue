@@ -77,6 +77,9 @@
 
     <h3>Replacing Methods</h3>
     <MethodsComponent />
+
+    <h3>V model and Composition API</h3>
+    <VModel />
   </div>
 </template>
 
@@ -103,6 +106,7 @@ import ReplacingDataWithReactive from "./components/Learn-Composition-API/Replac
 import DemoOne from "./components/Reactivity-and-toRefs/DemoOne.vue";
 import DemoTwo from "./components/Reactivity-and-toRefs/DemoTwo.vue";
 import MethodsComponent from "./components/Replacing-Methods/Methods.vue";
+import VModel from "./components/VModel-and-Composition-API/VModel.vue";
 export default {
   name: "App",
   components: {
@@ -128,6 +132,7 @@ export default {
     DemoOne,
     DemoTwo,
     MethodsComponent,
+    VModel,
   },
   data() {
     return {
